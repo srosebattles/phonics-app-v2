@@ -33,6 +33,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@headlessui/react", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.6.4"],\
+            ["@heroicons/react", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.0.6"],\
             ["@types/node", "npm:17.0.35"],\
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.5"],\
@@ -93,6 +95,54 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
           "packageDependencies": [\
             ["@gar/promisify", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@headlessui/react", [\
+        ["npm:1.6.4", {\
+          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.6.4-a22167e0c5-f24dd2f5bd.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "npm:1.6.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.6.4", {\
+          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-d8a283f709/0/cache/@headlessui-react-npm-1.6.4-a22167e0c5-f24dd2f5bd.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.6.4"],\
+            ["@types/react", "npm:18.0.9"],\
+            ["@types/react-dom", "npm:18.0.5"],\
+            ["react", "npm:18.1.0"],\
+            ["react-dom", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:18.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@heroicons/react", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/@heroicons-react-npm-1.0.6-51f92ebbfd-372b1eda3c.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:1.0.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.0.6", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-28b0fd0e16/0/cache/@heroicons-react-npm-1.0.6-51f92ebbfd-372b1eda3c.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.0.6"],\
+            ["@types/react", "npm:18.0.9"],\
+            ["react", "npm:18.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3118,6 +3168,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["phonics-app-v2", "workspace:."],\
+            ["@headlessui/react", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.6.4"],\
+            ["@heroicons/react", "virtual:8782fdf836950e27cde374380b8f820cc48b073d059a6c437e281ace4d6b01b033dbe4f604a4a638e7dca75469b50f26207d62f7f70467ccd3be669caa874731#npm:1.0.6"],\
             ["@types/node", "npm:17.0.35"],\
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.5"],\
